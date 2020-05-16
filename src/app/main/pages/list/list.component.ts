@@ -5,6 +5,7 @@ import { Component, OnInit } from "@angular/core";
     templateUrl: "./list.component.html"
 })
 export class ListComponent implements OnInit {
+    public title: string = 'COVID-19';
 
     constructor() {
         // Use the component constructor to inject providers.
